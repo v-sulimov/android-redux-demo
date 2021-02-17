@@ -1,4 +1,5 @@
 <resources>
     <string name="applicationName">Redux Demo</string>
-    <string name="greetings">Hello, World!</string>
+    <string name="counterDescription">You have pushed the button this many times:</string>
+    <string name="fabDescription">Floating action button with plus sign.</string>
 </resources>
