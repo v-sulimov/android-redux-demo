@@ -1,0 +1,4 @@
+<resources>
+    <string name="applicationName">Redux Demo</string>
+    <string name="greetings">Hello, World!</string>
+</resources>
