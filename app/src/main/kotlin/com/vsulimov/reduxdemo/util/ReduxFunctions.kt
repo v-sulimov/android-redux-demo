@@ -2,7 +2,7 @@ package com.vsulimov.reduxdemo.util
 
 import com.vsulimov.redux.Action
 import com.vsulimov.redux.Subscription
-import com.vsulimov.reduxdemo.Application
+import com.vsulimov.reduxdemo.AppComponent
 import com.vsulimov.reduxdemo.state.ApplicationState
 
 /**
@@ -10,10 +10,10 @@ import com.vsulimov.reduxdemo.state.ApplicationState
  */
 
 fun dispatch(action: Action) =
-    Application.getInstance().store.dispatch(action)
+    AppComponent.store.dispatch(action)
 
 fun subscribe(subscription: Subscription<ApplicationState>) =
-    Application.getInstance().store.subscribe(subscription)
+    AppComponent.store.subscribe(subscription)
 
 fun unsubscribe(subscription: Subscription<ApplicationState>) =
-    Application.getInstance().store.unsubscribe(subscription)
+    AppComponent.store.unsubscribe(subscription)

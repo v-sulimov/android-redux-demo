@@ -4,7 +4,6 @@
     package="com.vsulimov.reduxdemo">
 
     <application
-        android:name=".Application"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:label="@string/applicationName"

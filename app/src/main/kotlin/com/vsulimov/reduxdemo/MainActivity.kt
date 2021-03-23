@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity<ApplicationState>() {
     private lateinit var contentViewGroup: ViewGroup
 
     override fun getStore(): Store<ApplicationState> =
-        Application.getInstance().store
+        AppComponent.store
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
